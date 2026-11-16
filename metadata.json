@@ -1,0 +1,6 @@
+{
+  "name": "Photo Vocab",
+  "description": "写真から英単語帳を自動作成し、自然な英語発音と2秒インターバルで効率的に学べるiPhone向けPWA英単語学習アプリ",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

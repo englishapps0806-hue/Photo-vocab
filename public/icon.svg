@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="55%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="card" x1="120" y1="130" x2="392" y2="382" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EFF6FF" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Camera Viewfinder Brackets -->
+  <path d="M96 164V116C96 104.954 104.954 96 116 96H164" stroke="#93C5FD" stroke-width="20" stroke-linecap="round" />
+  <path d="M348 96H396C407.046 96 416 104.954 416 116V164" stroke="#93C5FD" stroke-width="20" stroke-linecap="round" />
+  <path d="M96 348V396C96 407.046 104.954 416 116 416H164" stroke="#93C5FD" stroke-width="20" stroke-linecap="round" />
+  <path d="M348 416H396C407.046 416 416 407.046 416 396V348" stroke="#93C5FD" stroke-width="20" stroke-linecap="round" />
+  <!-- Vocabulary Card -->
+  <rect x="142" y="148" width="228" height="216" rx="28" fill="url(#card)" />
+  <!-- Text Lines & Acoustic Bars -->
+  <rect x="176" y="192" width="116" height="22" rx="11" fill="#1E3A8A" />
+  <rect x="176" y="232" width="160" height="16" rx="8" fill="#94A3B8" />
+  <rect x="176" y="264" width="128" height="16" rx="8" fill="#CBD5E1" />
+  <!-- Audio Play Triangle -->
+  <circle cx="318" cy="316" r="28" fill="#2563EB" />
+  <path d="M311 304L331 316L311 328V304Z" fill="#FFFFFF" />
+</svg>
